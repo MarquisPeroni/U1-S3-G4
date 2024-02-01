@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+ table {
+    border-collapse: collapse;
+    margin: 1rem auto;
+    padding: 2rem;
+} 
+
+table, th, td {
+    border: 1px solid #967736;  
+}
+
+th, td {
+    padding: 1rem;
+    display : inline-block;
+}
+
+button {
+    padding: 1.5rem;
+    font-size: large;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: brown;
+}
